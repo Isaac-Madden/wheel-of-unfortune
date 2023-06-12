@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Reinventing the Wheel!</title>
+        <link href="style.css" rel="stylesheet">
+        <script src="main.js" defer ></script>
+        <script src="canvas.js" defer ></script>
+    </head>
+    
+    <body>
+
+        <header>
+            <h1>My Attempt at Reinventing the Wheel!</h1>
+        </header>
+
+        <div class="row">
+
+            <div class="column">
+                <canvas id="myCanvas"></canvas>
+            </div>
+
+            <div class="column">
+                    <input id = "Name" type = "text" placeholder="Colleages name">
+                    <br>
+                    <input id = "Display" type="hidden" value="true">
+                    <button onclick="submit();clearFields()" id = "enterButton">Submit</button>
+            </div>
+
+            <div class="column">
+                <table id = "myTable">
+                </table>
+            </div>
+
+        </div> <!-- div class "row" -->
+
+        <footer>
+            <h1>Hope this works!</h1>
+        </footer>
+
+    </body>
+
+</html>

@@ -1,0 +1,64 @@
+/* ----- General Page Styling -----  */
+
+html {
+  background-color: aqua;
+}
+
+body {
+  font-size: 10px;
+  background-color: rgb(182, 25, 174);
+  display: block;
+  text-align: center;
+  padding: 2em;
+  color: whitesmoke;
+}
+
+header {
+  background-color: #383733;
+  display: block;
+  text-align: center;
+  padding: 2em;
+  color: whitesmoke;
+}
+
+footer {
+  background-color: #d8b630;
+  display: block;
+  text-align: center;
+  padding: 2em;
+  color: whitesmoke;
+}
+
+#myTable{
+  border: black;
+  border-style: solid;
+  color: black;
+}
+
+form {
+  border: black;
+  border-style: solid;
+  color: black;
+}
+
+.column {
+  margin: 0 auto;
+}
+
+#myCanvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  border: black;
+  border-style: solid;
+  margin: 20px;
+  background-color: white;
+}
